@@ -1,4 +1,4 @@
-package com.example.uber.userpackages;
+package com.example.uber;
 
 import androidx.appcompat.app.AppCompatActivity;
 

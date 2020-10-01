@@ -1,9 +1,7 @@
-package com.example.uber;
+package com.example.uber.adminpackages;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +11,8 @@ import android.widget.Filterable;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.io.ByteArrayOutputStream;
+import com.example.uber.R;
+
 import java.util.ArrayList;
 
 public class MyAdapter extends RecyclerView.Adapter<MyHolder> implements Filterable {
@@ -37,8 +36,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> implements Filtera
     @Override
     public void onBindViewHolder(@NonNull final MyHolder myholder, int i) {
         myholder.mTitle.setText(models.get(i).getTitle());
+        myholder.mImaeView.setImageResource(models.get(i).getImg());
 //        myholder.mDes.setText(models.get(i).getDescription());
-//        myholder.mImaeView.setImageResource(models.get(i).getImg());
 
 ////when you want to use one activity
 //        myholder.setItemClickListener(new ItemClickListener() {

@@ -23,12 +23,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.btn_admin){
-            Intent intent = new Intent(this,AdminActivity.class);
+            Intent intent = new Intent(this, AdminActivity.class);
             startActivity(intent);
 
         }
         if (v.getId() == R.id.btn_user){
-            Intent intent = new Intent(this,UserActivity.class);
+            Intent intent = new Intent(this, UserActivity.class);
             startActivity(intent);
 
         }

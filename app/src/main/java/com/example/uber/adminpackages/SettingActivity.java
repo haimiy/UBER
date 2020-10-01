@@ -1,10 +1,12 @@
-package com.example.uber;
+package com.example.uber.adminpackages;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.example.uber.R;
 
 public class SettingActivity extends AppCompatActivity {
 

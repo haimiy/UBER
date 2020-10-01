@@ -1,4 +1,4 @@
-package com.example.uber.adminpackages;
+package com.example.uber;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -15,9 +15,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.SearchView;
 
-import com.example.uber.Model;
-import com.example.uber.MyAdapter;
-import com.example.uber.R;
+import com.example.uber.adminpackages.Model;
+import com.example.uber.adminpackages.MyAdapter;
 
 import java.util.ArrayList;
 import java.util.Collections;

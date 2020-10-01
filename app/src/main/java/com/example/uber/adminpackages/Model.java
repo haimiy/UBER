@@ -1,4 +1,4 @@
-package com.example.uber;
+package com.example.uber.adminpackages;
 
 import java.util.Comparator;
 
