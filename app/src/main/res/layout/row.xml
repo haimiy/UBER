@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".Model">
+
+    <RelativeLayout
+        android:background="@drawable/gradientlayout"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageIv"
+            android:layout_width="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="80dp"/>
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:text="Title"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageIv"
+            android:layout_toEndOf="@id/imageIv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="match_parent"
+            android:text="Description"
+            android:textColor="#a9a9a9"
+            android:textSize="22sp"
+            android:layout_toRightOf="@id/imageIv"
+            android:layout_toEndOf="@id/imageIv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/titleTv"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
